@@ -18,7 +18,6 @@
 
 repo_method: file # Other Options are: file, satellite and rhn
 tower_admin_password: 'changeme'
-tower_version: "3.4.3-1"
 # Do you want to run a full yum update
 update_packages: false
 #If using repo_method: satellite, you must set these values as well.
@@ -28,7 +27,6 @@ update_packages: false
 
 ## guid is the deployment unique identifier, it will be appended to all tags,
 ## files and anything that identifies this environment from another "just like it"
-guid: defaultguid
 
 install_bastion: true
 install_common: true
